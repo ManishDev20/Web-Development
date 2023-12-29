@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  /* height: 100vh; */
+  position: relative;
+  border: 2px solid red;
+  overflow: hidden;
+}
+
+.road {
+  width: 100%;
+  height: 5px;
+  border: 10px solid #000;
+  background-color: #000;
+  margin-top: 500px;
+}
+
+.stick {
+  width: 10px;
+  height: 90px;
+  background-color: #000;
+  position: absolute;
+  top: 426px;
+  left: 825px;
+}
+
+.car {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}
+
+.car1 {
+  /* positioning of the car 1 */
+  top: 430px;
+  left: -110px;
+  animation: car1 20s infinite;
+}
+
+@keyframes car1 {
+  0% {
+    left: -110px;
+  }
+  30% {
+    left: 600px;
+  }
+  60% {
+    left: 600px;
+  }
+  90% {
+    left: 1550px;
+  }
+  100% {
+    left: 1600px;
+  }
+}
+
+.car2 {
+  /* positioning of the car 2 */
+  top: 430px;
+  left: -110px;
+  animation: car2 20s infinite;
+}
+
+@keyframes car2 {
+  0% {
+    left: -110px;
+  }
+  40% {
+    left: 480px;
+  }
+  60% {
+    left: 480px;
+  }
+  100% {
+    left: 1550px;
+  }
+}
+
+.light {
+  width: 70px;
+  position: absolute;
+  top: 350px;
+  left: 800px;
+}
+
+.red {
+  width: 20px;
+  height: 20px;
+  background-color: #212121;
+  border-radius: 50%;
+  position: absolute;
+  top: 357px;
+  left: 820px;
+  box-shadow: none;
+  animation: redlight 20s infinite;
+}
+
+@keyframes redlight {
+  0% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  26.80% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  27% {
+    background-color: red;
+    box-shadow: 0 0 15px 2px red;
+  }
+  58% {
+    background-color: red;
+    box-shadow: 0 0 15px 2px red;
+  }
+  59% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  100% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+}
+
+.yellow {
+  width: 20px;
+  height: 20px;
+  background-color: #212121;
+  border-radius: 50%;
+  position: absolute;
+  top: 380px;
+  left: 820px;
+  box-shadow: none;
+  animation: yellowlight 20s infinite;
+}
+
+@keyframes yellowlight {
+  0% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  14.50% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  15% {
+    background-color: yellow;
+    box-shadow: 0 0 15px 5px yellow;
+  }
+  26.75% {
+    background-color: yellow;
+    box-shadow: 0 0 15px 5px yellow;
+  }
+  26.80% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  100% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+}
+
+.green {
+  width: 20px;
+  height: 20px;
+  background-color: #212112;
+  border-radius: 50%;
+  position: absolute;
+  top: 403px;
+  left: 820px;
+  box-shadow: none;
+  animation: greenlight 20s infinite;
+}
+
+@keyframes greenlight {
+  0% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  58% {
+    background-color: #212121;
+    box-shadow: none;
+  }
+  59% {
+    background-color: green;
+    box-shadow: 0 0 15px 5px green;
+  }
+
+  100% {
+    background-color: green;
+    box-shadow: 0 0 15px 5px green;
+  }
+}
