@@ -2,4 +2,4 @@
 
 MERN STACK COURSE PROJECTS AND TASKS
 <br>
-author - Manish
+Author - Manish
