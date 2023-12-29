@@ -4,4 +4,4 @@ Simple Traffic Light Control Animation using Html and Css.
 
 Created by - Manish
 
-See- <a href="https://manishdev20.github.io/Web-Development/TrafficLightControl/" target="_blank">Demo</a>
+See- <a href="https://manishdev20.github.io/Web-Development/TrafficLightControl/" target="_blank" >Demo</a>
