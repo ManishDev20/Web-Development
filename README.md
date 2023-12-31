@@ -4,7 +4,7 @@ MERN STACK COURSE PROJECTS AND TASKS
 <br>
 Author - Manish
 
-<table>
+<table style='width: "500px";background-color:"gray"'>
   <tr>
   <th>SN.</th>
   <th>Projects</th> 
