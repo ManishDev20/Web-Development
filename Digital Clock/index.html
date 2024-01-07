@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 81);
+      }
+      .clock {
+        box-shadow: 0px 20px 50px rgba(255, 253, 146, 0.6);
+        border: 5px solid black;
+        width: 30%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.811);
+      }
+      .hrs,
+      .mins,
+      .secs,
+      .AmPm {
+        width: 25%;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+      }
+
+      .AmPm {
+        color: rgb(255, 238, 0);
+      }
+
+      .clock span {
+        width: max-content;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock">
+        <div class="hrs"></div>
+        <span style="color: yellow">:</span>
+        <div class="mins"></div>
+        <span style="color: yellow">:</span>
+        <div class="secs"></div>
+        <div class="AmPm"></div>
+      </div>
+    </div>
+    <script>
+      setInterval(function time() {
+        const timeBox = new Date();
+
+        timeString = timeBox.toLocaleTimeString();
+        console.log(timeString);
+        let hours = timeBox.getHours();
+        let minutes = timeBox.getMinutes();
+        let seconds = timeBox.getSeconds();
+
+        var hour = document.querySelector(".hrs");
+        var minute = document.querySelector(".mins");
+        var second = document.querySelector(".secs");
+        var ampm = document.querySelector(".AmPm");
+
+        if (hours > 12) {
+          hours -= 12;
+          ampm.innerText = "PM";
+        } else {
+          ampm.innerText = "AM";
+        }
+        if (hours < 10) {
+          hours = "0" + hours;
+        }
+        if (minutes < 10) {
+          minutes = "0" + minutes;
+        }
+        if (seconds < 10) {
+          seconds = "0" + seconds;
+        }
+
+        hour.innerText = hours;
+        minute.innerText = minutes;
+        second.innerText = seconds;
+      }, 1000);
+    </script>
+  </body>
+</html>
