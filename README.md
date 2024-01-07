@@ -21,7 +21,7 @@ Author - Manish
     <td><a href='https://manishdev20.github.io/Web-Development/TrafficLightControl/'>Demo</a></td>
   </tr>
     <tr>
-    <td>2.</td>
+    <td>3.</td>
     <td>Digital Clock</td>
     <td><a href='https://manishdev20.github.io/Web-Development/Digital%20Clock/'>Demo</a></td>
   </tr>
