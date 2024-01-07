@@ -25,4 +25,10 @@ Author - Manish
     <td>Digital Clock</td>
     <td><a href='https://manishdev20.github.io/Web-Development/Digital%20Clock/'>Demo</a></td>
   </tr>
+  </tr>
+    <tr>
+    <td>4.</td>
+    <td>Image Slider</td>
+    <td><a href='https://manishdev20.github.io/Web-Development/Image%20Slider/'>Demo</a></td>
+  </tr>
   </table>
