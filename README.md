@@ -13,6 +13,11 @@ Author - Manish
   <tr>
     <td>1.</td>
     <td>Analog Clock</td>
-    <td><a style='color:"red"' href='https://manishdev20.github.io/Web-Development/Analog%20Clock/'>Demo</a></td>
+    <td><a href='https://manishdev20.github.io/Web-Development/Analog%20Clock/'>Demo</a></td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Traffic Light Animation</td>
+    <td><a href='https://manishdev20.github.io/Web-Development/TrafficLightControl/'>Demo</a></td>
   </tr>
   </table>
