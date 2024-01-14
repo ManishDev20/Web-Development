@@ -9,8 +9,8 @@ if (random1 > random2) {
   document.querySelector("h1").innerHTML = "Draw!";
 }
 
-const randomImageSource1 = "./images/dice" + random1 + ".png";
-const randomImageSource2 = "./images/dice" + random2 + ".png";
+const randomImageSource1 = "./dice" + random1 + ".png";
+const randomImageSource2 = "./dice" + random2 + ".png";
 
 document.querySelectorAll("img")[0].setAttribute("src", randomImageSource1);
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
