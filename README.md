@@ -31,4 +31,10 @@ Author - Manish
     <td>Image Slider</td>
     <td><a href='https://manishdev20.github.io/Web-Development/Image%20Slider/'>Demo</a></td>
   </tr>
+  </tr>
+    <tr>
+    <td>5.</td>
+    <td>Dice Game</td>
+    <td><a href='https://manishdev20.github.io/Web-Development/DiceGame/'>Demo</a></td>
+  </tr>
   </table>
