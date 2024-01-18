@@ -43,7 +43,7 @@ Author - Manish
    </tr>
   <tr>
     <td>6.</td>
-    <td>Music Band</td>
+    <td>Meta NewsRoom</td>
     <td><a href='https://manishdev20.github.io/Web-Development/Music%20Band/'>Demo</a></td>
     <td>2024-11-20</td>
   </tr>
