@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Navbar Start form here  */
+
+.navbar {
+  /* width: 100%; */
+  display: flex;
+  /* border: #1877f2 2px solid; */
+}
+
+.brand {
+  width: 10%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.brandName {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navs {
+  width: 82%;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* letter-spacing: 1px; */
+}
+
+.main-menu {
+  display: flex;
+  gap: 40px;
+  font-weight: 600;
+  line-height: 87px;
+}
+
+.main-menu li {
+  position: relative;
+}
+
+.dropIcon {
+  margin: 2px 0 0 7px;
+}
+
+.dropdown {
+  width: 1516px;
+  height: 0px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  top: 91px;
+  left: -180px;
+  background-color: #ffffff;
+  display: flex;
+  gap: 50px;
+  padding: 35px 0 100px 165px;
+  transition: 0.3s;
+}
+
+.shop-:hover .dropdown {
+  max-height: 500px;
+  visibility: visible;
+}
+
+.drop-head {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #67788a;
+  letter-spacing: 0.8px;
+}
+
+.drop-link ul {
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.search {
+  width: 8%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search div {
+  width: 65%;
+  height: 50%;
+  border: 1px solid #fff;
+  border-left: 1px solid #d5d5d5;
+  border-radius: 5px;
+  display: flex;
+  padding: 0 0 0 20px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* navbar styles end here  */
+
+hr {
+  border: none;
+  border-top: 1px solid #d5d5d5;
+}
+
+/* main start from here  */
+
+.mainStories-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftEmpty {
+  width: 3%;
+}
+
+#rightMiddle {
+  width: 93%;
+}
+
+.newsroom {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: #666;
+  line-height: 140px;
+}
+
+#topstories {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #666;
+  letter-spacing: 4px;
+  float: right;
+}
+
+/* stories container start from here  */
+
+.storyContainer {
+  width: 100%;
+  margin: 65px 0 0 0;
+  display: flex;
+  gap: 0px;
+}
+
+/* ------ left side  */
+
+.leftsto {
+  width: 48%;
+  height: 100%;
+}
+
+.meta-thread {
+  width: 100%;
+  height: 100%;
+}
+
+.metaText {
+  width: max-content;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1877f2;
+  letter-spacing: 2px;
+}
+
+.leftstoText {
+  margin: 20px 0;
+  width: 90%;
+}
+
+.leftstoText h1 {
+  font-size: 35px;
+  line-height: 43px;
+  color: #000;
+  font-weight: 600;
+}
+
+.leftstoText p {
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1px;
+}
+.leftstoText p span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+/* ------- right side  */
+
+.rightsto {
+  width: 50%;
+  height: 100%;
+}
+
+.rightstoFlex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightstoText {
+  width: 50%;
+}
+
+.MetaText {
+  width: max-content;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #1877f2;
+}
+
+.rightstoText h1 {
+  width: 315px;
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  word-spacing: 4px;
+}
+
+.rightstoText p {
+  width: 315px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  word-spacing: 2px;
+  line-height: 24px;
+  color: #666;
+}
+
+.rightstoText span {
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.stoPic-cont {
+  width: 54%;
+}
+
+.stoPic-cont div {
+  width: 260px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .overlay {
+  width: 260px;
+  height: 200px;
+  background-color: #d1d1d18e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s;
+  transform-origin: center;
+} */
+
+.stoPic-cont div img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 200px;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.stoPic-cont div:hover .transImg {
+  width: 265px;
+  height: 205px;
+}
+
+/* .stoPic-cont div:hover .overlay {
+  visibility: hidden;
+} */
+
+/* --- stories container end here */
+
+/* --- meta and Bmw styles strt from here  */
+
+.bmw-cont {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #f1f2f4;
+}
+
+.bmw-text {
+  width: 50%;
+  height: 100%;
+  padding: 70px 60px;
+}
+
+.bmw-text h1 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 45px;
+  word-spacing: 4px;
+}
+
+.bmw-text p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666;
+  font-weight: 600;
+  word-spacing: 4px;
+}
+
+.bmw-img {
+  width: 50%;
+}
+
+/* Stories Category Section start from here  */
+
+.news-container {
+  width: 95%;
+  margin: 100px auto 0;
+  display: flex;
+}
+
+/* --------------------- */
+
+.news-nav {
+  width: 18%;
+  margin-left: 30px;
+}
+
+.news-feed {
+  width: 81%;
+}
+
+/* news-nav Styles start from here  */
+
+.news-nav-resent {
+  width: 70%;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.resent {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #333333;
+  margin-bottom: 18px;
+}
+
+.allRecent {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* ------  */
+
+.categories {
+  width: 70%;
+  margin: auto;
+}
+
+.cate-text {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #677b8c;
+}
+
+.categories ul li {
+  font-size: 14px;
+  margin: 10px 0 0;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.topic {
+  margin: 38px auto 10px;
+}
+
+/* News feed styles start from here  */
+
+.news-feed {
+  width: 82%;
+  padding-left: 10px;
+  padding-bottom: 60px;
+}
+
+.storiesCont-flex {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.storyText {
+  width: 43%;
+}
+
+.storyText h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 10px;
+  letter-spacing: 1px;
+}
+
+.storyText p {
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+.storyText span {
+  color: #666;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.stroyImg {
+  width: 30%;
+}
+
+.moreStories {
+  width: 890px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.moreStories a {
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.moreStories i {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.pressLink {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+  background-color: #f1f2f4;
+}
+.press-links {
+  width: 30%;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 100px;
+  color: #344854;
+  font-weight: 600;
+  text-align: center;
+}
+
+.m-links {
+  width: 70%;
+}
+
+.m-links ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  font-size: 14px;
+}
+
+/* footer styles start from here  */
+
+footer {
+  width: 100%;
+  height: 700px;
+  margin-top: 90px;
+  display: flex;
+  gap: 150px;
+}
+
+.social-links p {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.social-logo {
+  font-size: 25px;
+}
+
+.fa-brands {
+  margin: 0 5px;
+}
+
+.social-links {
+  margin: 30px 40px 10px;
+}
+
+.ft-brand {
+  margin-left: 60px;
+}
+/* ------------  */
+
+.vr-head {
+  font-size: 16px;
+  font-weight: 700;
+
+  color: #344854;
+}
+
+.vr-links {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.support {
+  margin-top: 20px;
+}
+
+.oc {
+  margin-top: 20px;
+}
+
+.oa {
+  margin-top: 20px;
+}
+
+/* ------ bottom section   */
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.data-policy {
+  width: 80%;
+  padding-left: 50px;
+}
+
+.data-policy ul {
+  display: flex;
+  font-size: 12px;
+  gap: 40px;
+}
+
+.language {
+  width: 20%;
+  padding-left: 0px;
+}
+
+#language {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  border: none;
+}
